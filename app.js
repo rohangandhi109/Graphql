@@ -103,7 +103,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://new_user:user@cluster0-cnbvo.mongodb.net/messages?retryWrites=true'
+    'mongodb+srv://new_user:user@cluster0-dsds.mongodb.net/messages?retryWrites=true'
   )
   .then((result) => {
     app.listen(8080);
